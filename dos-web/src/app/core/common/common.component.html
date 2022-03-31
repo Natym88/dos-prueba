@@ -1,0 +1,308 @@
+<header>
+  <div class="login">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="16"
+      height="16"
+      fill="currentColor"
+      class="bi bi-telephone-fill"
+      viewBox="0 0 16 16"
+    >
+      <path
+        fill-rule="evenodd"
+        d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
+      />
+    </svg>
+    (011) 4584-9300 / 4581-5000
+  </div>
+
+  <div class="vista-escritorio">
+    <div>
+      <a routerLink="home" routerLinkActive="active"
+        ><img src="../../../assets/img/logo.png" alt="Logo"
+      /></a>
+    </div>
+    <div class="links">
+      <div class="emergencias">
+        <a routerLink="components/emergencias" routerLinkActive="active">
+          <div>
+            <img
+              src="../../../assets/img/emergency-ambulance.svg"
+              alt="Emergencias"
+            />
+          </div>
+          <div>
+            <h3>Emergencias</h3>
+            <p>Teléfonos de urgencia</p>
+          </div>
+        </a>
+      </div>
+      <div class="turnos">
+        <a routerLink="/pages/pageTurnos"
+          ><img src="../../../assets/img/event_head.png" alt="Turnos" /> Turnos
+          Online</a
+        >
+      </div>
+    </div>
+  </div>
+
+  <div class="vista-mobile">
+    <div>
+      <a routerLink="home" routerLinkActive="active"
+        ><img src="../../../assets/img/logo-ico.png" alt="Logo"
+      /></a>
+    </div>
+    <div class="turnos">
+      <a routerLink="/pages/pageTurnos"
+        ><img src="../../../assets/img/event_head.png" alt="Turnos" /> Turnos
+        Online</a
+      >
+    </div>
+    <!--Menú hamburguesa-->
+    <div class="hamburguesa">
+      <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <!-- <a class="navbar-brand" href="#"></a> -->
+          <button 
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarToggleExternalContent"
+              aria-controls="navbarToggleExternalContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon" ></span>
+            </button>
+          
+          <!-- <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                  <div class="menu-hamburguesa">
+                    <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                      <div class="card card-body" style="width: 300px;">
+                        <ul>
+                            <li><a routerLink="/pages/institucional" routerLinkActive="active">
+                                    <div>Institucional</div>
+                                </a></li>
+                            <li><a routerLink="/pages/pageSedes" routerLinkActive="active">
+                                    <div>Sedes</div>
+                                </a></li>
+                            <li><a routerLink="/pages/afiliaciones" routerLinkActive="active">
+                                    <div>Trámites</div>
+                                </a></li>
+                            <li><a routerLink="/pages/canalesConsulta" routerLinkActive="active">
+                                    <div>Salud Mental</div>
+                                </a></li>
+                            <li><a routerLink="/pages/discapacidad" routerLinkActive="active">
+                                    <div>Beneficios Sociales</div>
+                                </a></li>
+                            <li><a routerLink="/pages/pageCartilla" routerLinkActive="active">
+                                    <div>Cartilla Médica</div>
+                                </a></li>
+                            <li><a routerLink="/pages/pageFarmacias" routerLinkActive="active">
+                                    <div>Farmacias</div>
+                                </a></li>
+                            <li><a routerLink="/pages/pageLaboratorios" routerLinkActive="active">
+                                    <div>Laboratorios</div>
+                                </a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div> -->
+
+          <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
+            <div class="bg-light">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active" 
+                    routerLink="/pages/institucional"
+                    routerLinkActive="active"
+                  >
+                    <div>Institucional</div>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" 
+                  routerLink="/pages/pageSedes"
+                  routerLinkActive="active"
+                  >
+                    <div>Sedes</div>
+                  </a>
+                </li>
+                <li>
+                  <a routerLink="/pages/tramites/afiliaciones" routerLinkActive="active">
+                    <div>Trámites</div>
+                  </a>
+                </li>
+                <li>
+                  <a routerLink="/pages/canalesConsulta" routerLinkActive="active">
+                    <div>Salud Mental</div>
+                  </a>
+                </li>
+                <!--routerLink="/pages/canalesConsulta" routerLinkActive="active" -->
+                <li>
+                  <a routerLink="/pages/discapacidad" routerLinkActive="active">
+                    <div>Beneficios Sociales</div>
+                  </a>
+                </li>
+                <li>
+                  <a routerLink="/pages/pageCartilla" routerLinkActive="active">
+                    <div>Cartilla Médica</div>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    routerLink="/pages/pageFarmacias"
+                    routerLinkActive="active"
+                  >
+                    <div>Farmacias</div>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    routerLink="/pages/pageLaboratorios"
+                    routerLinkActive="active"
+                  >
+                    <div>Laboratorios</div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- <nav class="navbar navbar-dark" > 
+            <button 
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarToggleExternalContent"
+              aria-controls="navbarToggleExternalContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon" ></span>
+            </button>
+          </nav> -->
+
+
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  <nav>
+    <div class="nav1">
+      <ul>
+        <li>
+          <a routerLink="/pages/institucional" routerLinkActive="active">
+            <div>Institucional</div>
+          </a>
+        </li>
+        <li>
+          <a routerLink="/pages/pageSedes" routerLinkActive="active">
+            <div>Sedes</div>
+          </a>
+        </li>
+        <li>
+          <a routerLink="/pages/tramites" routerLinkActive="active">
+            <div>Trámites</div>
+          </a>
+        </li>
+        <li>
+          <a routerLink="/pages/canalesConsulta" routerLinkActive="active">
+            <div>Salud Mental</div>
+          </a>
+        </li>
+        <li>
+          <a routerLink="/pages/discapacidad" routerLinkActive="active">
+            <div>Beneficios Sociales</div>
+          </a>
+        </li>
+        <li>
+          <a routerLink="/pages/pageCartilla" routerLinkActive="active">
+            <div>Cartilla Médica</div>
+          </a>
+        </li>
+        <li>
+          <a routerLink="/pages/pageFarmacias" routerLinkActive="active">
+            <div>Farmacias</div>
+          </a>
+        </li>
+        <li>
+          <a routerLink="/pages/pageLaboratorios" routerLinkActive="active">
+            <div>Laboratorios</div>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="nav2">
+      <ul>
+        <li>
+          <a routerLink="home" routerLinkActive="active"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-house"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"
+              />
+              <path
+                fill-rule="evenodd"
+                d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"
+              />
+            </svg>
+            Inicio</a
+          >
+        </li>
+        <li>
+          <a routerLink="pages/noticias" routerLinkActive="active"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-newspaper"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M0 2.5A1.5 1.5 0 0 1 1.5 1h11A1.5 1.5 0 0 1 14 2.5v10.528c0 .3-.05.654-.238.972h.738a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 1 1 0v9a1.5 1.5 0 0 1-1.5 1.5H1.497A1.497 1.497 0 0 1 0 13.5v-11zM12 14c.37 0 .654-.211.853-.441.092-.106.147-.279.147-.531V2.5a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5v11c0 .278.223.5.497.5H12z"
+              />
+              <path
+                d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z"
+              />
+            </svg>
+            Noticias</a
+          >
+        </li>
+        <li>
+          <a routerLink="components/contacto" routerLinkActive="active"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-envelope"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"
+              />
+            </svg>
+            Contacto</a
+          >
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<router-outlet></router-outlet>
+
+<app-footer></app-footer>

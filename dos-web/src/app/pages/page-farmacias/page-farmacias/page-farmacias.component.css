@@ -1,0 +1,42 @@
+h2 span{
+    color: #2696ae;
+    margin-right: 20px;
+}
+
+h2{
+    font-size: 2.5em;
+    width: 63vw;
+}
+
+.contenedor{
+    background-color: #f2f2f2;
+    padding: 20px 5vw;
+}
+
+.resultado{
+    background-color: white;
+    margin: 20px 95px;
+    padding: 10px;
+}
+
+@media ( max-width: 720px ){
+    .contenedor{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .resultado{
+        width: 80vw;
+        margin-bottom: 15px;
+        word-wrap: break-word;
+        margin: 10%;
+    }
+
+    main{
+        padding-top: 15px;
+    }
+
+    h2{
+        width: 90vw;
+    }
+}

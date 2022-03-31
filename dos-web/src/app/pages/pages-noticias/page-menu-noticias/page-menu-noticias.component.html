@@ -1,0 +1,11 @@
+<div class="menu" >
+ 
+    <div>últimas noticias</div>
+    <ul *ngFor="let noticia of noticias | paginate:  { itemsPerPage: 5, currentPage: pages }">
+        <li><a id="{{noticia.id}}"routerLink="{{noticia.ruta}}" routerLinkActive="active">{{noticia.descripcion}}</a></li>
+    </ul>
+  <br>
+     <pagination-controls  (pageChange)="pages = $event"></pagination-controls>
+     
+
+</div>

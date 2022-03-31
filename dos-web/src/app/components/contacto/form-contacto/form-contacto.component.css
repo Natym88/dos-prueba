@@ -1,0 +1,127 @@
+
+.menu{
+    width: 28vw;
+}
+.menu-title{
+    border-left: #2696ae solid 2px;
+    font-size: 2em;
+    padding-left: 5px;
+    margin-bottom: 20px
+}
+
+main{
+    padding: 0 5vw 4% 5vw;
+    background-color: #f4f4f4;
+
+}
+.afiliaciones{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+h2 {
+    color: #2696ae;
+}
+
+.contenido{
+    padding: 6vh;
+    width: 63vw;
+}
+
+.boton {
+    margin-bottom:10px;
+    height: 60px;
+    border-radius: 0  2px 0;
+    box-shadow: 0 3px 0  0 rgb(211, 206, 206);
+}
+
+a{
+    text-decoration: none;
+}
+
+.boton a{
+    display: flex;
+}
+
+.descargas{
+    color: black;
+    background-color: #dddddd;
+    width: 23vw;
+    height: 60px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.pdf{
+    background-color: #2696ae;
+    width: 60px;
+    height: 60px;
+    box-shadow: 0 3px 0  0 rgb(211, 206, 206);
+}
+
+.boton a:hover{
+    height: 65px;
+    margin-bottom: 5px;
+    box-shadow: none;
+}
+
+.boton:hover div{
+    height: 65px;
+}
+
+.boton a:hover {
+    background-color: rgb(231, 224, 224);
+    color: #2696ae;
+}
+
+img{
+    height: 50px;
+    padding: 10%;
+    position: relative;
+    left: 10%;
+    top: 10%;
+}
+
+@media ( max-width: 720px ){
+    .afiliaciones{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenido{
+        width: 80vw;
+        margin-bottom: 15px;
+        word-wrap: break-word;
+    }
+
+    main{
+        padding-top: 15px;
+    }
+
+    h2{
+        width: 90vw;
+    }
+
+    .menu{
+        width: 80vw;
+        text-align: center;
+    }
+
+    .menu-title{
+        border: none;
+    }
+
+    .boton{
+        margin: 10px;
+    }
+
+    .descargas{
+        width: 250px;
+    }
+
+    .form-label{
+        width: 75vw;
+    }
+}

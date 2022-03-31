@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+@font-face {
+    font-family: 'spf';
+    src:
+      url('/assets/font/MyriadPro/MYRIADPRO-LIGHT.OTF')
+  }
+  @font-face {
+    font-family: 'spfCondensed';
+    src: url('/assets/font/MyriadPro/MYRIADPRO-BOLDCOND.OTF')
+  }
+  @font-face {
+    font-family: 'spfregular';
+    src: url('/assets/font/MyriadPro/MYRIADPRO-REGULAR.OTF')
+  }
+  @font-face {
+    font-family: 'spfbold';
+    src: url('/assets/font/MyriadPro/MYRIADPRO-SEMIBOLD.OTF')
+  }
